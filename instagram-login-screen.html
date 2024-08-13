@@ -15,13 +15,15 @@
       </div>
       <div class="login-form">
         <div class="login-section">
-          <input class="login-input" type="text" placeholder="Phone-Number, Username or E-mail">
+         
+          <input class="js-login-input login-input" type="text">
+         <div class="js-test upper-placeholder-off ">Phone-Number, Username or E-mail</div>
         </div>
         <div class="login-section">
-          <input class="password-input" type="password" placeholder="Password">
+          <input class="js-password-input password-input" type="password" placeholder="Password">
         </div>
         <div>
-          <button>Login</button>
+          <button class="login-button">Login</button>
         </div>
       <div class="sector-spacer">
         <div class="sector-space-detail"></div>
@@ -29,11 +31,16 @@
         <div class="sector-space-detail"></div>
       </div>
       <div class="facebook-login-div">
-        <img class="facebook-logo" src="images/icons8-facebook.svg">
-        <div>Login with Facebook</div>
+        <button>
+          <img class="facebook-logo" src="images/icons8-facebook.svg">
+          Login with Facebook</button>
+      </div>
+      <div class="forgot-password-div">
+        <button>Forgot Your Password?</button>
       </div>
       </div>
     </div>
   </div>
+  <script src="scripts/loginScreen.js"></script>
 </body>
 </html>
