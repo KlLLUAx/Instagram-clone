@@ -54,7 +54,7 @@ position: relative;
 .password-input{
   height: 20px;
   width: 258px;
-  padding:9px 0px 6px 8px;
+  padding: 11px 0px 3px 8px;
   outline: none;
   border: 1px solid rgb(209, 204, 204);
   border-radius: 2px;
@@ -62,7 +62,7 @@ position: relative;
 }
 
 .upper-placeholder-off{
-  font-size: 13px;
+  font-size: 12px;
   top: 13px;
   left:10px;
   position: absolute;
@@ -75,12 +75,9 @@ position: relative;
   pointer-events: none;
 }
 .upper-placeholder-on{
-  font-size: 12px;
+  font-size: 10px;
   transform:translate(-2px,-9px)
 }
-
-
-  
 .login-button{
   font-weight: bold;
   font-size: 13px;
