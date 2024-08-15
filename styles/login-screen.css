@@ -87,6 +87,17 @@ position: relative;
   width: 270px;
   padding: 8px;
   border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.login-button-locked{
+  pointer-events: none;
+}
+.login-button:hover{
+  background-color: rgb(3, 163, 226);
+}
+.login-button:active{
+  opacity: 0.8;
 }
 .sector-spacer{
   margin-top: 20px;
